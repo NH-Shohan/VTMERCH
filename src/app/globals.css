@@ -2,22 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
+/* font-[family-name:var(--font-geist-sans)] */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --primary: #ea2127;
+  --black: #000000;
+  --black-background: #111111;
+  --white: #ffffff;
+  --white-background: #f5f5f5;
+  --gray: #9b9b9b;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+h3 {
+  font-family: var(--font-montserrat);
+  font-size: 70px;
+  line-height: 120%;
+  letter-spacing: 0.5px;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+h4 {
+  font-family: var(--font-montserrat);
+  font-size: 48px;
+  line-height: 120%;
+  letter-spacing: 0.5px;
+}
+
+h5 {
+  font-family: var(--font-montserrat);
+  font-size: 24px;
+  line-height: 120%;
+  letter-spacing: 0.5px;
 }
 
 @layer utilities {

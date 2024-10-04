@@ -1,15 +1,31 @@
+import { Inter } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
+const actOfRejection = localFont({
+  src: "../fonts/Act_Of_Rejection.ttf",
+  variable: "--font-act-of-rejection",
   weight: "100 900",
+  display: "swap",
 });
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
+
+const inter = Inter({
+  subsets: ["latin"],
+  display: "swap",
+});
+
+const montserrat = localFont({
+  src: "../fonts/Montserrat-VariableFont_wght.ttf",
+  variable: "--font-montserrat",
   weight: "100 900",
+  display: "swap",
+});
+
+const montserratItalic = localFont({
+  src: "../fonts/Montserrat-Italic-VariableFont_wght.ttf",
+  variable: "--font-montserrat-italic",
+  weight: "100 900",
+  display: "swap",
 });
 
 export const metadata = {
@@ -21,7 +37,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${actOfRejection.variable} ${inter.className} ${montserrat.variable} ${montserratItalic.variable} antialiased`}
       >
         {children}
       </body>
