@@ -1,18 +1,18 @@
 "use client";
 
 import Image from "next/image";
-import americanexpress from "/public/assets/icon/american-express.svg";
-import amex from "/public/assets/icon/amex.svg";
-import applepay from "/public/assets/icon/apple-pay.svg";
-import dinersclub from "/public/assets/icon/diners-club.svg";
-import mail from "/public/assets/icon/email.svg";
-import facebook from "/public/assets/icon/facebook.svg";
-import instagram from "/public/assets/icon/instagram-logo.svg";
-import linkedin from "/public/assets/icon/linkedin.svg";
-import paypal from "/public/assets/icon/paypal.svg";
-import telephone from "/public/assets/icon/telephone.svg";
-import twitter from "/public/assets/icon/twitter.svg";
-import visa from "/public/assets/icon/visa.svg";
+import americanexpress from "/public/assets/Icon/american-express.svg";
+import amex from "/public/assets/Icon/amex.svg";
+import applepay from "/public/assets/Icon/apple-pay.svg";
+import dinersclub from "/public/assets/Icon/diners-club.svg";
+import mail from "/public/assets/Icon/email.svg";
+import facebook from "/public/assets/Icon/facebook.svg";
+import instagram from "/public/assets/Icon/instagram-logo.svg";
+import linkedin from "/public/assets/Icon/linkedin.svg";
+import paypal from "/public/assets/Icon/paypal.svg";
+import telephone from "/public/assets/Icon/telephone.svg";
+import twitter from "/public/assets/Icon/twitter.svg";
+import visa from "/public/assets/Icon/visa.svg";
 import logo from "/public/assets/logo/logo_red.svg";
 
 const Footer = () => {
