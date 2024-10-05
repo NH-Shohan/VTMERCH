@@ -43,7 +43,7 @@ const NavBar = () => {
         onMouseLeave={handleNavClose}
       >
         <p
-          className={`font-[family-name:var(--font-act-of-rejection)] text-9xl transition-all duration-500 pointer-events-none ${
+          className={`font-[family-name:var(--font-act-of-rejection)] [font-size:_clamp(4em,2.3vw,2.8em)] transition-all duration-500 pointer-events-none ${
             navOpen ? "scale-100" : "scale-50"
           }`}
         >

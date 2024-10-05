@@ -10,7 +10,7 @@ const Quote = () => {
           <Image
             src={quote}
             alt="quote"
-            className="h-auto absolute -top-0 md:-top-36 -left-0 md:-left-16"
+            className="h-auto absolute -top-20 md:-top-36 -left-0 md:-left-16"
           />
           <h4 className="font-bold uppercase text-nowrap [font-size:_clamp(0.8em,2.3vw,2.8em)] text-center sm:text-center md:text-left">
             Our mission is to enlighten, entertain <br /> and empower current
