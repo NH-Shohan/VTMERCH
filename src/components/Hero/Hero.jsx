@@ -40,17 +40,17 @@ const Hero = () => {
 
   return (
     <section className="bg-primary text-white sm:p-5 lg:p-0">
-      <div className="container mx-auto pb-10 pt-16">
+      <div className="container mx-auto h-full pb-8 pt-16">
         <NavBar />
 
-        <p className="opacity-40 text-[8vw] sm:text-[10vw] lg:text-[6vw] leading-[120%] tracking-[1px] font-[family-name:var(--font-act-of-rejection)] mt-20 sm:mt-10 md:mt-20 lg:mt-28 xl:mt-32 text-nowrap">
+        <p className="opacity-40 [font-size:_clamp(1em,9vw,7em)] leading-[120%] tracking-[1px] font-[family-name:var(--font-act-of-rejection)] mt-20 sm:mt-10 md:mt-20 lg:mt-28 xl:mt-32 text-nowrap">
           future looks bright!
         </p>
       </div>
 
       {/* Cards section */}
       <div
-        className="relative -mt-[5%] pb-16 overflow-hidden"
+        className="relative -mt-[5%] pb-10 overflow-hidden"
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >

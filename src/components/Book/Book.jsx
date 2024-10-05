@@ -69,7 +69,7 @@ const Book = () => {
 
   return (
     <div className="bg-black-background text-white">
-      <div className="container mx-auto px-5 py-10 md:py-32 grid grid-cols-2 gap-16">
+      <div className="container mx-auto px-5 py-10 md:py-48 grid grid-cols-1 sm:grid-cols-2 gap-5 md:gap-16">
         <div className="space-y-9">
           <div className="space-y-4">
             <h4 className="font-semibold uppercase text-2xl sm:text-2xl md:text-3xl lg:text-4xl">

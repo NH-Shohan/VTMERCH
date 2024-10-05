@@ -56,15 +56,15 @@ const Products = () => {
             T-Shirts
           </Button>
           <Button
-            onClick={() => filterProducts("accessories")}
-            active={activeCategory === "accessories"}
+            onClick={() => filterProducts("gear")}
+            active={activeCategory === "gear"}
             icon={<CirclesThreePlus size={32} weight="light" />}
           >
-            Accessories
+            Gear
           </Button>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-6">
           {filteredProducts.map((product, index) => (
             <ProductsCards key={index} product={product} />
           ))}
