@@ -10,9 +10,9 @@ module.exports = {
       colors: {
         primary: "var(--primary)",
         black: "var(--black)",
-        blackBackground: "var(--black-background)",
+        "black-background": "var(--black-background)",
         white: "var(--white)",
-        whiteBackground: "var(--white-background)",
+        "white-background": "var(--white-background)",
         gray: "var(--gray)",
       },
     },

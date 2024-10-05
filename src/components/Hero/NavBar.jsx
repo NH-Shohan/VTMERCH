@@ -9,7 +9,7 @@ const NavBar = () => {
   const handleNavClose = () => setNavOpen(false);
 
   return (
-    <nav className="flex justify-between">
+    <nav className="flex justify-between items-center">
       <div className="flex items-center gap-2">
         <Image
           className="aspect-square h-[6.5vw] w-auto"
@@ -18,7 +18,7 @@ const NavBar = () => {
           width={115}
           height={115}
         />
-        <h3 className="font-semibold sm:font-semibol md:font-bold lg:font-extrabold text-[5.8vw] tracking-widest sm:tracking-widest md:tracking-[12px]">
+        <h3 className="font-semibold sm:font-semibol md:font-bold lg:font-extrabold text-[5.8vw] tracking-widest sm:tracking-widest md:tracking-[12px] leading-none">
           VTMERCH
         </h3>
       </div>
@@ -43,7 +43,7 @@ const NavBar = () => {
         onMouseLeave={handleNavClose}
       >
         <p
-          className={`font-[family-name:var(--font-act-of-rejection)] text-9xl transition-all duration-500 ${
+          className={`font-[family-name:var(--font-act-of-rejection)] text-9xl transition-all duration-500 pointer-events-none ${
             navOpen ? "scale-100" : "scale-50"
           }`}
         >
